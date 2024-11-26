@@ -21,5 +21,13 @@ class fizzbuzzTest {
 	void testTrois() {
 		assertEquals(fizzbuzz.fizzbuzz(3), "fizz");
 	}
+	
+	@Test
+	void testSommeValues() {
+		assertEquals(fizzbuzz.fizzbuzz(4),"4");
+		assertEquals(fizzbuzz.fizzbuzz(9),"fizz");
+		assertEquals(fizzbuzz.fizzbuzz(12),"fizz");
+		assertEquals(fizzbuzz.fizzbuzz(14), "14");
+	}
 
 }
