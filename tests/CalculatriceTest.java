@@ -23,4 +23,11 @@ class CalculatriceTest {
 	void testAdditionDeuxValeurs() {
 		assertEquals(calculatrice.additionner(2,3),5);
 	}
+	
+	@Test
+	void testSommeValues() {
+		assertEquals(calculatrice.additionner(34, 3),37);
+		assertEquals(calculatrice.additionner(-1, 1), 0);
+		assertEquals(calculatrice.additionner(2,18),20);
+	}
 }
