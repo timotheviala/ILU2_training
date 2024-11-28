@@ -40,4 +40,11 @@ class CalculatriceTest {
 	void testSoustractionDouzeDeux() {
 		assertEquals(calculatrice.soustraire(12, 2),10);
 	}
+	
+	@Test
+	void testSomeValues() {
+		assertEquals(calculatrice.soustraire(-2, -3), 1);
+		assertEquals(calculatrice.soustraire(18, 10),8);
+		assertEquals(calculatrice.soustraire(13, 20),-7);
+	}
 }
