@@ -6,7 +6,7 @@ public class Calculatrice {
 		return valueUn+valueDeux;
 	}
 	
-	public int soustraire(int i1,int i2) {
-		return 1;
+	public int soustraire(int valueUn,int valueDeux) {
+		return valueUn-valueDeux;
 	}
 }
