@@ -15,7 +15,12 @@ class CalculatriceTest {
 	}
 
 	@Test
-	void testAddition() {
+	void testAdditionUnZero() {
 		assertEquals(calculatrice.additionner(1,0),1);
+	}
+	
+	@Test
+	void testAdditionDeuxValeurs() {
+		assertEquals(calculatrice.additionner(2,3),5);
 	}
 }
