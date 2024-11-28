@@ -30,4 +30,9 @@ class CalculatriceTest {
 		assertEquals(calculatrice.additionner(-1, 1), 0);
 		assertEquals(calculatrice.additionner(2,18),20);
 	}
+	
+	@Test
+	void testSoustrcationUnZero() {
+		assertEquals(calculatrice.soustraire(1,0), 1);
+	}
 }
