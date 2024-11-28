@@ -22,5 +22,11 @@ class jeuTest {
 	void testNonTrouver() {
 		assertEquals(jeu.tryCoordonnees(1, 0), 10);
 	}
+	
+	@Test
+	void testValues() {
+		assertEquals(jeu.tryCoordonnees(2,0 ),10);
+		assertEquals(jeu.tryCoordonnees(1, 1), 10);
+	}
 
 }
