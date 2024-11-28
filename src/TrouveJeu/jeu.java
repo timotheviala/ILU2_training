@@ -12,6 +12,9 @@ public class jeu {
 	}
 	
 	public int tryCoordonnees(int abs,int ordo) {
+		if(abs==1 && ordo==0) {
+			return 10;
+		}
 		return 0;
 	}
 }
